@@ -10,9 +10,9 @@ export const useTodo = createContext()
   const [message, setMessage] = useState("");
 
   const choices = [
-    { src: "public/Distop img/rock.png", alt: "rock" },
-    { src: "public/Distop img/paper.png", alt: "paper" },
-    { src: "public/Distop img/scissors.png", alt: "scissors" },
+    { src: "https://tse2.mm.bing.net/th/id/OIP.NMhMlw1aue9vzUepxWeCpAHaEK?pid=Api&P=0&h=180", alt: "rock" },
+    { src: "https://tse4.mm.bing.net/th/id/OIP.hZ19DgfkM-W7JY_9A1YFugHaEK?pid=Api&P=0&h=180", alt: "paper" },
+    { src: "https://chandanbca143.github.io/Rock-paper-scissor/scissors.png", alt: "scissors" },
   ];
 
   const comRandom = () => Math.floor(Math.random() * 3);
